@@ -29,4 +29,8 @@ A tip consists of 4 fields:
 The two endpoints to implement are 
 - get tips sorted by submission date (newest first) (`GET /tips`)
 - get tip by id (`GET /tips/:id`)
+  
+A in-memory `Repository` class which can be used to 'store' the tips.
+It simulates programming against a database or cache service by providing an asynchronous interface for reading and writing data.
+
  
